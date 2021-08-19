@@ -2,8 +2,6 @@
 .gitignore 
 README.md 
 node_modules
-.envrc
 .idea 
 Makefile 
-
-
+secrets.json 
