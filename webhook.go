@@ -9,7 +9,7 @@ import (
 	"github.com/line/line-bot-sdk-go/linebot"
 )
 
-func Webook(w http.ResponseWriter, r *http.Request) {
+func Webhook(w http.ResponseWriter, r *http.Request) {
 
 	LineChannelSecret := os.Getenv("LINE_CHANNEL_SECRET")
 	LineChannelAccessToken := os.Getenv("LINE_CHANNEL_ACCESS_TOKEN")
